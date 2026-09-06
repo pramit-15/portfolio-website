@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-canvas: #28282B;
+  --color-surface: #36454F;
+  --color-border: #818589;
+  --color-text-primary: #B2BEB5;
+  --color-text-muted: #A9A9A9;
+  --color-accent: #89CFF0;
+  --color-accent-secondary: #6082B6;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #28282B;
+  color: #B2BEB5;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11", "tnum";
+}
+
+body {
+  background-color: #28282B;
+  color: #B2BEB5;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typographic discipline */
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+  letter-spacing: -0.025em;
+}
+
+p {
+  text-wrap: pretty;
+  max-width: 68ch;
+}
+
+::selection {
+  background-color: #89CFF0;
+  color: #000000;
+}
+
+/* Precision Hairline Borders & Dark Mode Depth */
+.hairline-border {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hairline-border-subtle {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.hairline-divider {
+  border-color: rgba(255, 255, 255, 0.07);
+}
+
+/* Subtle, Grounded Shadow System */
+.surface-elevation-1 {
+  background-color: #36454F;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.35);
+}
+
+.surface-elevation-2 {
+  background-color: #3E4E59;
+  box-shadow: 0 8px 30px -4px rgba(0, 0, 0, 0.45);
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #28282B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #36454F;
+  border-radius: 3px;
+  border: 1px solid rgba(129, 133, 137, 0.4);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6082B6;
+}
+
+/* Tabular Numerals for Metrics */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
