@@ -73,7 +73,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <p className="text-base sm:text-lg text-primary leading-relaxed font-sans max-w-[65ch]">
               I am an AI Systems Engineer and IT undergraduate at{" "}
               <span className="text-white font-medium">Bhilai Institute of Technology, Durg</span>{" "}
-              (GPA: 7.5, class of 2027). I build end-to-end machine learning and LLM architectures:
+              (GPA: 7.43, class of 2027). I build end-to-end machine learning and LLM architectures:
               stateful <strong className="text-white font-mono font-medium">LangGraph</strong>{" "}
               workflows with multi-provider failover, stacked clinical risk ensembles (
               <strong className="text-white font-mono font-medium">99.93% ROC-AUC</strong>), and

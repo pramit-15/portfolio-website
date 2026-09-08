@@ -202,7 +202,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
               <div className="text-xs sm:text-sm">
                 <div className="font-bold text-white">B.Tech. in Information Technology</div>
                 <div className="text-primary">Bhilai Institute of Technology, Durg</div>
-                <div className="text-accent font-mono text-xs mt-0.5">GPA: 7.5 | Class of 2027</div>
+                <div className="text-accent font-mono text-xs mt-0.5">GPA: 7.43 | Class of 2027</div>
               </div>
             </div>
 

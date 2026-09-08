@@ -39,7 +39,7 @@ export const offlineKnowledgeBase: KnowledgeItem[] = [
     topic: "education",
     keywords: ["education", "college", "degree", "bit durg", "gpa", "btech", "university"],
     response:
-      "Pramit Shrivastav is pursuing his Bachelor of Technology (B.Tech.) in Information Technology at Bhilai Institute of Technology, Durg (BIT Durg), graduating in 2027 with a GPA of 7.5.\n\nHe has also completed certifications from AI MAXA TECH, CSVTU (Grade A in Project Learning), and IIT Bombay Spoken Tutorial.",
+      "Pramit Shrivastav is pursuing his Bachelor of Technology (B.Tech.) in Information Technology at Bhilai Institute of Technology, Durg (BIT Durg), graduating in 2027 with a GPA of 7.43.\n\nHe has also completed certifications from AI MAXA TECH, CSVTU (Grade A in Project Learning), and IIT Bombay Spoken Tutorial.",
   },
   {
     topic: "contact",

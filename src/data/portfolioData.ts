@@ -12,7 +12,7 @@ export const personalInfo = {
   education: {
     degree: "B.Tech. in Information Technology",
     institution: "Bhilai Institute of Technology, Durg",
-    gpa: "7.5",
+    gpa: "7.43",
     year: "Expected Graduation 2027",
     location: "Durg, India",
   },
